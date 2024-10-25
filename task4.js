@@ -1,0 +1,20 @@
+var fruits = ["Apple", "Banana", "Orange" ];
+c = fruits.join();
+console.log(c);
+console.log('"',c,'"',';');
+var n = ["1","2","3","4","5"];
+n1 = n.join("-");
+console.log('"',n1,'"',';');
+ var = ["h","e","l","l","o"];
+h1 = h.join("");
+console.log('"',h1,'"');
+var t = 'JavaScript is awesome';
+console.log('"',t.slice(0,9),'"');
+var se = 'I love learning JavaScript!';
+console.log('"',se.slice(7,15),'"');
+var te = 'Frontend Development';
+console.log('"',te.slice(-11),'"');
+var d ='2024-10-21';
+console.log(d.split("-"))
+var tex = 'I love JavaScript programming';
+console.log(tex.split(" ",2));
